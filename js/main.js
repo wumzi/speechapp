@@ -54,6 +54,7 @@ function startRecord(){
                     alert("error recording");
                 }
             );
+    alert(mediaRec);
     mediaRec.startRecord();
 }
 

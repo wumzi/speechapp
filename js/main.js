@@ -21,18 +21,21 @@ function main(){
             recording = true;
         }
         catch (e){
+            alert('error starting');
+            alert(e);
             console.log("Recording issue\n" + e);
         }
     }
     else{
         try{
-            stopRecord();
             recording = false;
             //changeLogoBG('white');
             microphone.className = "";
             microphone.style.border = '5px solid white';
+            stopRecord();
         }
         catch (e){
+            alert('error in recording :(');
             console.log("Recording stop issue\n" + e);
         }
     }

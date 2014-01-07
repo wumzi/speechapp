@@ -7,10 +7,7 @@ var clientDB = "demo";
 
 var mediaRec;
 
-ondeviceready = function(){
-    alert("cool !");
-    console.log("cool !");
-}
+document.addEventListener("deviceready", function(){alert("gros"); console.log("gros");}, false);
 
 
 function main(){

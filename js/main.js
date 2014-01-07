@@ -7,6 +7,11 @@ var clientDB = "demo";
 
 var mediaRec;
 
+ondeviceready = function(){
+    alert("cool !");
+    console.log("cool !");
+}
+
 
 function main(){
     /* Decide quelle action lancer lorsque le bouton est togglé */
